@@ -23,8 +23,15 @@
         <maven>3.1.0</maven>
     </prerequisites>
 <!-- [END set_versions] -->
-
-    <dependencies>
+	<repositories>
+		<repository>
+			<id>maven-restlet</id>
+			<name>Public online Restlet repository</name>
+		<url>http://maven.restlet.com</url>
+		</repository>
+	</repositorys>
+	
+	<dependencies>
         <!-- Compile/runtime dependencies -->
         <dependency>
             <groupId>com.google.appengine</groupId>
